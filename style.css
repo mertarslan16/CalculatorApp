@@ -1,0 +1,122 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colculator{
+    border: 2px solid lightgray;
+    padding: 5px;
+}
+
+.resultPanel{
+    width: 100%;
+    height: 100px;
+    background-color: lightslategray;
+    border: 1px solid lightgray
+}
+
+.result{
+    font-size: 3rem;
+    color: #fff;
+    display: block;
+    text-align: right;
+}
+
+.clearDiv{
+    margin: 3px;
+    display: flex;
+}
+
+#clearAll{
+    width: 50%;
+    height: 50px;
+    background-color: brown;
+    border: none;
+    padding: 10px;
+    margin-right: 3px ;
+    color: #b1acac;
+}
+
+#deleteAChar{
+    width: 50%;
+    height: 50px;
+    background-color: brown;
+    border: none;
+    padding: 10px;
+    color: #b1acac;
+}
+
+
+.numbers{
+    margin: 3px;
+    
+}
+
+.line{
+    margin: 6px;
+}
+
+.content{
+    display: flex;
+}
+
+.operator{
+    display: flex;
+    flex-direction: column;
+    row-gap: calc(5px);
+    margin-top: 10px;
+}
+
+.number{
+    width: 40px;
+    height: 40px;
+    background-color: wheat;
+    border: none;
+    font-size: 20px;
+    
+}
+
+.equels{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background-color: lightblue;
+    border: none;
+}
+
+#division{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 2px;
+    border: none;
+    font-size: 20px;
+    background-color: darkorange;
+}
+
+#multiplication{
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    background-color: darkorange;
+
+}
+#extraction{
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    background-color: darkorange;
+
+}
+#addition{
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    background-color: darkorange;
+
+}
